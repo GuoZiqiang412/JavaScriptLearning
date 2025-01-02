@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://127.0.0.1:5500/78.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" ,="" href="./Document_files/style.css">
+
+    <style>
+        .block{
+            background-color: aqua;
+            color: blueviolet;
+            width: 200px;
+            height: 20px;
+        }
+        .inline-block{
+            height: 150px;
+            width: 180px;
+        }
+        .demo{
+            background-color: aqua;
+            display: inline-block;
+            border: solid, 20px, gray;
+        }
+    </style>
+
+</head>
+<body data-new-gr-c-s-check-loaded="14.1215.0" data-gr-ext-installed="">
+    <p>hello world</p>
+    <h3>nihao</h3>
+    <p id="paragraph">this is a test</p>
+    <p class="youyou">youyou test</p>
+    <div class="father">
+        <p class="son">这是个子元素</p>
+        <div>
+            <p>hhhhhhhh</p>
+        </div>
+    </div>
+    <p id="element">jhhihihih</p>
+    <h4 style="color: aqua; font-size: 25px; line-height: 40px;">这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试这是一个行内测试测试</h4>
+
+    <div class="block">块元素</div>
+    <span class="inline">行内元素</span>
+    <img src="./Document_files/images22.png" alt="this is a starbucks logo" class="inline-block">
+    <h2>Display</h2>
+    <div style="display: inline; background-color: bisque; font-size: 30px;">This is a header</div>
+    <span style="display: inline-block; background-color: aqua">我是</span>
+    <div class="demo">你很好</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
